@@ -1,7 +1,7 @@
-const x = (document.getElementById("home").onclick = function () {
-  document.body.style.backgroundColor = "blue";
+// const x = (document.getElementById("home").onclick = function () {
+//   document.body.style.backgroundColor = "blue";
 
-  setTimeout(() => {
-    document.body.style.backgroundColor = "";
-  }, 1000);
-});
+//   setTimeout(() => {
+//     document.body.style.backgroundColor = "";
+//   }, 1000);
+// });
