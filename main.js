@@ -1,4 +1,3 @@
-window.addEventListener("scroll", function () {
-  let value = window.scrollY;
-  console.log(value);
+const x = (document.getElementById("home").onclick = function () {
+  document.body.style.backgroundColor = "blue";
 });
