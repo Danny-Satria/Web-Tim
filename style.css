@@ -285,38 +285,7 @@ Label {
 
 .Photo {
   position: absolute;
-  right: 100px;
-  top: -80px;
+  right: 10px;
+  top: 10px;
   z-index: 3;
-}
-
-.shape1 {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  position: absolute;
-  top: 150px;
-  right: 200px;
-  border-radius: 100px;
-  z-index: 1;
-}
-
-.shape2 {
-  width: 300px;
-  height: 100px;
-  background-color: blue;
-  position: absolute;
-  top: 500px;
-  right: 170px;
-  border-radius: 0px 0 50px 50px;
-  z-index: 4;
-}
-
-.shape3 {
-  width: 400px;
-  height: 20px;
-  background-color: red;
-  position: absolute;
-  top: 320px;
-  right: 100px;
 }
