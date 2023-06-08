@@ -68,6 +68,14 @@ Label {
   transition: all 0.3s;
 }
 
+/* Hamburger Menu CSS */
+
+.kesatuan-hamburger-menu {
+  display: none;
+}
+
+/* Hamburger Menu END */
+
 /* CSS Navbar END */
 
 /* CSS Content */
@@ -115,6 +123,7 @@ Label {
   border: none;
   transition: 0.5s;
   border-radius: 10px;
+  z-index: 100;
 }
 
 .btn-talk {
@@ -133,6 +142,7 @@ Label {
   font-weight: normal;
   top: 215px;
   left: 130px;
+  z-index: 100;
 }
 
 .btn-skill:hover {
@@ -288,4 +298,137 @@ Label {
   right: 10px;
   top: 10px;
   z-index: 3;
+}
+
+/* media breakpoint */
+
+@media screen and (max-width: 600px) {
+  label {
+    left: 20px;
+  }
+
+  .ul-navbar {
+    flex-direction: column;
+    display: none;
+  }
+
+  .Photo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    top: 400px;
+    left: -100px;
+  }
+
+  .parentContent {
+    width: 350px;
+    height: 300px;
+    top: 150px;
+    left: 60px;
+  }
+
+  .parentContent .Perkenalan {
+    color: white;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .parentContent .role {
+    color: rgb(9, 111, 206);
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    top: 65px;
+    font-size: 20px;
+  }
+
+  .parentContent .deskripsi {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 110px;
+  }
+
+  .about-us {
+    position: absolute;
+    top: 1000px;
+    left: 140px;
+    font-size: 40px;
+    color: white;
+  }
+
+  .mid {
+    position: relative;
+    top: 750px;
+    width: 300px;
+    height: 800px;
+    left: 120px;
+  }
+
+  .perkenalan {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 20px;
+  }
+
+  .about-danny {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 70px;
+    left: -40px;
+    text-align: left;
+  }
+
+  .perkenalan-saeful {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 450px;
+    left: 20px;
+  }
+
+  .about-saeful {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 520px;
+    left: -40px;
+    text-align: left;
+  }
+
+  .kesatuan-hamburger-menu {
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: -30px;
+    width: 100px;
+    height: 60px;
+  }
+
+  .kesatuan-hamburger-menu .hamburger-menu1 {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: white;
+  }
+
+  .kesatuan-hamburger-menu .hamburger-menu2 {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 5px;
+    top: 13px;
+    background-color: white;
+  }
+
+  .kesatuan-hamburger-menu .hamburger-menu3 {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    top: 25px;
+    background-color: white;
+  }
 }
