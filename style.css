@@ -300,6 +300,20 @@ Label {
   z-index: 3;
 }
 
+/* Animation CSS */
+@keyframes melayang {
+  0% {
+    top: 400px;
+  }
+  50% {
+    top: 410px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+/* Animation END */
+
 /* media breakpoint */
 
 @media screen and (max-width: 600px) {
@@ -317,14 +331,15 @@ Label {
     height: 100px;
     display: inline-block;
     top: 400px;
-    left: -100px;
+    left: -125px;
+    animation: melayang 2s ease-in-out infinite;
   }
 
   .parentContent {
     width: 350px;
     height: 300px;
     top: 150px;
-    left: 60px;
+    left: 35px;
   }
 
   .parentContent .Perkenalan {
@@ -351,7 +366,7 @@ Label {
   .about-us {
     position: absolute;
     top: 1000px;
-    left: 140px;
+    left: 110px;
     font-size: 40px;
     color: white;
   }
@@ -361,7 +376,7 @@ Label {
     top: 750px;
     width: 300px;
     height: 800px;
-    left: 120px;
+    left: 80px;
   }
 
   .perkenalan {
