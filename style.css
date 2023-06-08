@@ -28,7 +28,7 @@ body {
   position: fixed;
   width: 100%;
   height: 90px;
-  z-index: 999999;
+  z-index: 9999;
 }
 
 Label {
@@ -38,6 +38,7 @@ Label {
   position: fixed;
   top: 25px;
   left: 60px;
+  z-index: 99999;
 }
 
 .ul-navbar {
@@ -306,7 +307,7 @@ Label {
     top: 400px;
   }
   50% {
-    top: 410px;
+    top: 405px;
   }
   100% {
     top: 400px;
@@ -323,7 +324,7 @@ Label {
 
   .ul-navbar {
     flex-direction: column;
-    display: none;
+    display: block;
   }
 
   .Photo {
@@ -419,6 +420,7 @@ Label {
     right: -30px;
     width: 100px;
     height: 60px;
+    z-index: 99999;
   }
 
   .kesatuan-hamburger-menu .hamburger-menu1 {
@@ -427,6 +429,7 @@ Label {
     width: 40px;
     height: 5px;
     background-color: white;
+    z-index: 99999;
   }
 
   .kesatuan-hamburger-menu .hamburger-menu2 {
@@ -436,6 +439,7 @@ Label {
     height: 5px;
     top: 13px;
     background-color: white;
+    z-index: 99999;
   }
 
   .kesatuan-hamburger-menu .hamburger-menu3 {
@@ -445,5 +449,42 @@ Label {
     height: 5px;
     top: 25px;
     background-color: white;
+    z-index: 99999;
+  }
+
+  .btn-talk {
+    position: absolute;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 1px solid #202020;
+    background: #212121;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: normal;
+    top: 215px;
+    left: 160px;
+    z-index: 100;
+  }
+
+  .btn-skill {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    border-radius: 10px;
+    z-index: 100;
   }
 }
