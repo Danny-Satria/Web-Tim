@@ -10,6 +10,7 @@ html {
 body {
   font-family: sans-serif;
   background-color: #202020;
+  overflow-x: hidden;
 }
 
 /* CSS Navbar */
@@ -125,6 +126,7 @@ Label {
   transition: 0.5s;
   border-radius: 10px;
   z-index: 100;
+  cursor: pointer;
 }
 
 .btn-talk {
@@ -323,8 +325,26 @@ Label {
   }
 
   .ul-navbar {
+    width: 200px;
+    background: linear-gradient(
+      120deg,
+      rgba(15, 219, 226, 0.945),
+      rgba(162, 10, 201, 0.712)
+    );
     flex-direction: column;
-    display: block;
+    top: 90px;
+    right: -10px;
+    display: flex;
+    transform: translateX(200%);
+    transition: all 1s;
+  }
+
+  .ul-navbar.slide {
+    transform: translateX(0);
+  }
+
+  .li-navbar {
+    margin: 30px 0 30px 50px;
   }
 
   .Photo {
@@ -423,6 +443,17 @@ Label {
     z-index: 99999;
   }
 
+  .kesatuan-hamburger-menu input {
+    position: absolute;
+    width: 70px;
+    height: 28px;
+    top: 1px;
+    left: -15px;
+    z-index: 999999;
+    opacity: 0;
+    cursor: pointer;
+  }
+
   .kesatuan-hamburger-menu .hamburger-menu1 {
     position: absolute;
     display: block;
@@ -430,6 +461,8 @@ Label {
     height: 5px;
     background-color: white;
     z-index: 99999;
+    transform-origin: 0 0;
+    transition: all 0.5s;
   }
 
   .kesatuan-hamburger-menu .hamburger-menu2 {
@@ -440,6 +473,7 @@ Label {
     top: 13px;
     background-color: white;
     z-index: 99999;
+    transition: all 0.3s;
   }
 
   .kesatuan-hamburger-menu .hamburger-menu3 {
@@ -450,6 +484,8 @@ Label {
     top: 25px;
     background-color: white;
     z-index: 99999;
+    transform-origin: 0 100%;
+    transition: all 0.5s;
   }
 
   .btn-talk {
@@ -488,3 +524,19 @@ Label {
     z-index: 100;
   }
 }
+
+/* Hamburger menu animation */
+
+.kesatuan-hamburger-menu input:checked ~ .hamburger-menu1 {
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.kesatuan-hamburger-menu input:checked ~ .hamburger-menu3 {
+  transform: rotate(-45deg) translate(-1px, 0px);
+}
+
+.kesatuan-hamburger-menu input:checked ~ .hamburger-menu2 {
+  transform: scale(0);
+}
+
+/* Hamburger menu animation END */
