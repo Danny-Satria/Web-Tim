@@ -352,7 +352,7 @@ Label {
     height: 100px;
     display: inline-block;
     top: 400px;
-    left: -80px;
+    left: -75px;
     animation: melayang 2s ease-in-out infinite;
   }
 
@@ -360,7 +360,7 @@ Label {
     width: 350px;
     height: 300px;
     top: 150px;
-    left: 70px;
+    left: 80px;
   }
 
   .parentContent .Perkenalan {
@@ -387,17 +387,17 @@ Label {
   .about-us {
     position: absolute;
     top: 1000px;
-    left: 200px;
+    left: 170px;
     font-size: 40px;
     color: white;
   }
 
   .mid {
     position: relative;
-    top: 750px;
+    top: 790px;
     width: 300px;
     height: 800px;
-    left: 180px;
+    left: 150px;
   }
 
   .perkenalan {
