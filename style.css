@@ -22,7 +22,7 @@ body {
 .obj {
   position: absolute;
   color: transparent;
-  top: 800px;
+  top: 850px;
 }
 
 .nav {
@@ -288,6 +288,23 @@ Label {
   color: white;
   font-size: 20px;
   top: 280px;
+  left: -150px;
+  text-align: left;
+}
+
+.perkenalan-rizky {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 400px;
+  left: -90px;
+}
+
+.about-rizky {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 465px;
   left: -150px;
   text-align: left;
 }
