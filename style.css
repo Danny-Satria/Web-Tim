@@ -7,6 +7,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.nggak {
+  position: absolute;
+  top: 9000px;
+}
+
 body {
   font-family: sans-serif;
   background-color: #202020;
