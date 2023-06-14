@@ -301,15 +301,15 @@ Label {
   position: absolute;
   color: white;
   font-size: 40px;
-  top: 400px;
-  left: -90px;
+  top: 420px;
+  left: 10px;
 }
 
 .about-rizky {
   position: absolute;
   color: white;
   font-size: 20px;
-  top: 465px;
+  top: 480px;
   left: -150px;
   text-align: left;
 }
@@ -460,7 +460,7 @@ Label {
     color: white;
     font-size: 30px;
     top: 800px;
-    left: -90px;
+    left: 20px;
   }
 
   .about-rizky {
