@@ -22,3 +22,8 @@ const nav = document.querySelector(".ul-navbar");
 menuToggle.addEventListener("click", function () {
   nav.classList.toggle("slide");
 });
+
+const letsTalk = document.querySelector(".btn-talk");
+letsTalk.addEventListener("click", function () {
+  window.location.href = "#letsTalk";
+});
