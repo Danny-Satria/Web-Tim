@@ -584,6 +584,11 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+  .background {
+    position: relative;
+    left: 200px;
+  }
+
   .screen-body {
     padding: 40px;
   }
