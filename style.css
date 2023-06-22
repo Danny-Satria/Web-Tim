@@ -373,7 +373,6 @@ input {
   display: flex;
   min-height: 100vh;
   position: relative;
-  margin-top: 660px;
   right: 300px;
 }
 
@@ -587,13 +586,13 @@ input {
 
 @media screen and (max-width: 600px) {
   .latar {
-    width: 800px;
+    width: 700px;
     overflow-x: hidden;
   }
 
   .background {
     position: relative;
-    margin-top: 500px;
+    top: -30px;
     left: 5px;
   }
 
