@@ -587,13 +587,13 @@ input {
 
 @media screen and (max-width: 600px) {
   .latar {
-    width: 1000px;
+    width: 800px;
     overflow-x: hidden;
   }
 
   .background {
     position: relative;
-    margin-top: 600px;
+    margin-top: 500px;
     left: 5px;
   }
 
