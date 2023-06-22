@@ -585,6 +585,10 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+  .latar {
+    width: 100vw;
+  }
+
   .background {
     position: relative;
     left: -370px;
