@@ -587,7 +587,6 @@ input {
 @media screen and (max-width: 600px) {
   .latar {
     width: 700px;
-    overflow-x: hidden;
   }
 
   .background {
