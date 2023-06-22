@@ -372,8 +372,8 @@ input {
 .background {
   display: flex;
   min-height: 100vh;
+  position: relative;
   margin-top: 660px;
-  margin-right: 650px;
 }
 
 .container {
@@ -586,12 +586,12 @@ input {
 
 @media screen and (max-width: 600px) {
   .latar {
-    width: 100vw;
+    width: 600px;
   }
 
   .background {
     position: relative;
-    left: -370px;
+    left: 5px;
   }
 
   .screen-body {
