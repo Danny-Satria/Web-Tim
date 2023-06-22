@@ -374,6 +374,7 @@ input {
   min-height: 100vh;
   position: relative;
   margin-top: 660px;
+  right: 300px;
 }
 
 .container {
@@ -586,11 +587,13 @@ input {
 
 @media screen and (max-width: 600px) {
   .latar {
-    width: 600px;
+    width: 1000px;
+    overflow-x: hidden;
   }
 
   .background {
     position: relative;
+    margin-top: 600px;
     left: 5px;
   }
 
