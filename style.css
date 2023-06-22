@@ -363,7 +363,7 @@ input {
 }
 
 .latar {
-  width: 100%;
+  width: 2000px;
   height: 600px;
   margin-top: 1500px;
   background-color: coral;
@@ -372,7 +372,8 @@ input {
 .background {
   display: flex;
   min-height: 100vh;
-  margin-top: 700px;
+  margin-top: 660px;
+  margin-right: 650px;
 }
 
 .container {
@@ -586,7 +587,7 @@ input {
 @media screen and (max-width: 600px) {
   .background {
     position: relative;
-    left: 200px;
+    left: -370px;
   }
 
   .screen-body {
