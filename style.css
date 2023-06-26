@@ -320,6 +320,40 @@ Label {
   text-align: left;
 }
 
+.perkenalan-zidane {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 840px;
+  left: 20px;
+}
+
+.about-zidane {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 900px;
+  left: -150px;
+  text-align: left;
+}
+
+.perkenalan-rozaki {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 620px;
+  left: 90px;
+}
+
+.about-rozaki {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 680px;
+  left: -150px;
+  text-align: left;
+}
+
 /* CSS Content END */
 
 /* CSS PHOTO */
@@ -365,7 +399,8 @@ input {
 .latar {
   width: 2000px;
   height: 600px;
-  margin-top: 1500px;
+  position: relative;
+  margin-top: 2000px;
   background-color: coral;
 }
 
@@ -735,6 +770,40 @@ input {
     color: white;
     font-size: 20px;
     top: 880px;
+    left: -40px;
+    text-align: left;
+  }
+
+  .perkenalan-zidane {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 1550px;
+    left: 10px;
+  }
+
+  .about-zidane {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 1630px;
+    left: -40px;
+    text-align: left;
+  }
+
+  .perkenalan-rozaki {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 1150px;
+    left: 70px;
+  }
+
+  .about-rozaki {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 1230px;
     left: -40px;
     text-align: left;
   }
